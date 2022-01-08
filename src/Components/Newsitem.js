@@ -31,7 +31,7 @@ const Newsitem = (props) => {
                 On {new Date(time).toGMTString()}
               </small>
             </p>
-            <a href={newsUrl} target="_blank" rel='noopener' className="btn btn-sm btn-dark">
+            <a href={newsUrl} target="_blank" rel='noopener' className="btn btn-sm btn-dark shadow-lg">
               Read More
             </a>
           </div>
